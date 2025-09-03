@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional lock files (ignore if using one package manager consistently)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Backend specific
+*.sqlite
+*.sqlite3
+
+# React specific
+public/static/
